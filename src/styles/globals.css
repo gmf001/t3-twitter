@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-slate-900 font-sans text-white;
+    color-scheme: dark;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply rounded bg-slate-800 text-white;
+  }
+
+  ::selection {
+    @apply bg-blue-600 text-white;
+  }
+}
